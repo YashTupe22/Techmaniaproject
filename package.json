@@ -1,0 +1,27 @@
+{
+  "name": "hand-gesture-recognition",
+  "version": "1.0.0",
+  "description": "Hand Gesture Recognition System - Sentence Builder",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "next": "^14.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@mediapipe/hands": "^0.4.1646",
+    "@mediapipe/camera_utils": "^0.3.1640",
+    "@mediapipe/drawing_utils": "^0.3.1620"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "@types/react": "^18.2.48",
+    "@types/react-dom": "^18.2.18",
+    "typescript": "^5.3.3"
+  }
+}
